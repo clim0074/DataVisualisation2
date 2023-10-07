@@ -1,0 +1,134 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "background": "white",
+  "padding": 5,
+  "width": 800,
+  "height": 400,
+  "title": {"text": "World Instant Noodle Consumption 2022", "frame": "group"},
+  "style": "view",
+  "data": [
+    {
+      "name": "source_1",
+      "url": "https://raw.githubusercontent.com/clim0074/FIT3179Week10/main/JS/ne_110m.topojson",
+      "format": {"type": "topojson", "feature": "ne_110m_graticules_30"}
+    },
+    {
+      "name": "source_2",
+      "url": "https://raw.githubusercontent.com/clim0074/FIT3179Week10/main/Data/Noodle%20Consumption.csv",
+      "format": {"type": "csv", "delimiter": ","}
+    },
+    {
+      "name": "source_0",
+      "url": "https://raw.githubusercontent.com/clim0074/FIT3179Week10/main/JS/ne_110m.topojson",
+      "format": {
+        "type": "topojson",
+        "feature": "ne_110m_admin_0_countries",
+        "parse": {}
+      },
+      "transform": [
+        {
+          "type": "formula",
+          "expr": "datum[\"properties\"] && datum[\"properties\"][\"NAME\"]",
+          "as": "properties.NAME"
+        }
+      ]
+    },
+    {
+      "name": "data_0",
+      "source": "source_0",
+      "transform": [
+        {
+          "type": "lookup",
+          "from": "source_2",
+          "key": "Country",
+          "fields": ["properties.NAME"],
+          "values": ["ConsumptionValue", "Population", "Year"]
+        },
+        {
+          "type": "formula",
+          "expr": "parseInt(datum.ConsumptionValue) / parseInt(datum.Population) * 1000000",
+          "as": "2022 Consumption Value"
+        },
+        {"type": "filter", "expr": "parseInt(datum.Year) == 2022"},
+        {
+          "type": "filter",
+          "expr": "isValid(datum[\"2022 Consumption Value\"]) && isFinite(+datum[\"2022 Consumption Value\"])"
+        }
+      ]
+    }
+  ],
+  "projections": [
+    {
+      "name": "projection",
+      "size": {"signal": "[width, height]"},
+      "fit": {"signal": "[data('source_0'), data('source_1'), data('data_0')]"},
+      "type": "equalEarth"
+    }
+  ],
+  "marks": [
+    {
+      "name": "layer_0_marks",
+      "type": "shape",
+      "style": ["geoshape"],
+      "from": {"data": "source_0"},
+      "encode": {
+        "update": {
+          "fill": {"value": "#4c78a8"},
+          "ariaRoleDescription": {"value": "geoshape"}
+        }
+      },
+      "transform": [{"type": "geoshape", "projection": "projection"}]
+    },
+    {
+      "name": "layer_1_marks",
+      "type": "shape",
+      "style": ["geoshape"],
+      "from": {"data": "source_1"},
+      "encode": {
+        "update": {
+          "fill": {"value": null},
+          "stroke": {"value": "lightgray"},
+          "ariaRoleDescription": {"value": "geoshape"}
+        }
+      },
+      "transform": [{"type": "geoshape", "projection": "projection"}]
+    },
+    {
+      "name": "layer_2_marks",
+      "type": "shape",
+      "style": ["geoshape"],
+      "from": {"data": "data_0"},
+      "encode": {
+        "update": {
+          "fill": {"scale": "color", "field": "2022 Consumption Value"},
+          "tooltip": {
+            "signal": "{\"Country\": isValid(datum[\"properties.NAME\"]) ? datum[\"properties.NAME\"] : \"\"+datum[\"properties.NAME\"], \"Total Consumption Value (USD Billion)\": format(datum[\"ConsumptionValue\"], \"\"), \"Consumption value per 1 million population (USD Billion)\": format(datum[\"2022 Consumption Value\"], \"\")}"
+          },
+          "ariaRoleDescription": {"value": "geoshape"},
+          "description": {
+            "signal": "\"2022 Consumption Value: \" + (format(datum[\"2022 Consumption Value\"], \"\")) + \"; Country: \" + (isValid(datum[\"properties.NAME\"]) ? datum[\"properties.NAME\"] : \"\"+datum[\"properties.NAME\"]) + \"; Total Consumption Value (USD Billion): \" + (format(datum[\"ConsumptionValue\"], \"\")) + \"; Consumption value per 1 million population (USD Billion): \" + (format(datum[\"2022 Consumption Value\"], \"\"))"
+          }
+        }
+      },
+      "transform": [{"type": "geoshape", "projection": "projection"}]
+    }
+  ],
+  "scales": [
+    {
+      "name": "color",
+      "type": "threshold",
+      "domain": [1, 25, 50],
+      "range": ["#fdbe85", "#fd8d3c", "#e6550d", "#a63603"],
+      "interpolate": "hcl"
+    }
+  ],
+  "legends": [
+    {
+      "fill": "color",
+      "labelOverlap": "greedy",
+      "symbolType": "circle",
+      "title": "2022 Consumption Value"
+    }
+  ],
+  "config": {}
+}
