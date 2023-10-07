@@ -1,0 +1,107 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 500,
+  "height": 400,
+  "title": "Instant Noodle Consumption per Continent (2018 - 2022)",
+  "data": {
+    "url": "https://raw.githubusercontent.com/clim0074/FIT3179Week10/main/Data/Noodle%20Consumption.csv"
+  },
+  "params": [
+    {
+      "name": "Continent_selection",
+      "bind": {
+        "input": "select",
+        "options": [
+          null,
+          "North America",
+          "South America",
+          "Europe",
+          "Africa",
+          "Asia",
+          "Oceania"
+        ],
+        "labels": [
+          "Show All",
+          "North America",
+          "South America",
+          "Europe",
+          "Africa",
+          "Asia",
+          "Oceania"
+        ],
+        "name": "Continent Selection: "
+      }
+    }
+  ],
+  "transform": [
+    {"filter": "datum.ConsumptionValue > 0"},
+    {"filter": "datum.Population > 0"},
+    {
+      "filter": "Continent_selection == null || datum.Continent == Continent_selection"
+    },
+    {
+      "calculate": "parseInt(datum.ConsumptionValue) / parseInt(datum.Population) * 1000000",
+      "as": "Consumption Value per million Population"
+    }
+  ],
+  "mark": "circle",
+  "encoding": {
+    "x": {"field": "Year", "type": "ordinal", "axis": {"grid": false}},
+    "y": {
+      "field": "ConsumptionValue",
+      "type": "quantitative",
+      "axis": {"tickCount": 6, "grid": false},
+      "scale": {"type": "log"},
+      "title": "Consumption Value ($USD Billion)"
+    },
+    "color": {
+      "field": "Continent",
+      "type": "nominal",
+      "scale": {
+        "domain": [
+          "North America",
+          "South America",
+          "Europe",
+          "Africa",
+          "Asia",
+          "Oceania"
+        ],
+        "range": [
+          "#e41a1c",
+          "#984ea3",
+          "#ff7f00",
+          "#a6cee3",
+          "#377eb8",
+          "#a65628"
+        ]
+      }
+    },
+    "opacity": {"value": 0.6},
+    "size": {
+      "field": "Population",
+      "type": "quantitative",
+      "scale": {
+        "type": "threshold",
+        "domain": [10000000, 100000000, 500000000, 1000000000, 2000000000],
+        "range": [10, 50, 150, 200, 300, 400]
+      },
+      "legend": {"format": ".1s"}
+    },
+    "tooltip": [
+      {"field": "Country", "type": "nominal"},
+      {"field": "Population", "type": "quantitative", "format": ","},
+      {
+        "field": "ConsumptionValue",
+        "type": "quantitative",
+        "format": ",",
+        "title": "Consumption Value"
+      },
+      {
+        "field": "Consumption Value per million Population",
+        "type": "quantitative",
+        "format": ".2f"
+      }
+    ]
+  },
+  "config": {}
+}
