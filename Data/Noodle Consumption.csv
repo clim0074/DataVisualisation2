@@ -1,266 +1,266 @@
-﻿Capital,Cca3,Continent,Country,Territory,Year,2022Population,ConsumptionValue,Rank
+﻿Capital,Cca3,Continent,Country,Territory,Year,Population,ConsumptionValue,Rank
 Beijing,CHN,Asia,China,China,2018,1425887337,40250,1
-Jakarta,IDN,Asia,Indonesia,Indonesia,2018,275501339,12540,4
-New Delhi,IND,Asia,India,India,2018,1417173173,6060,2
-Tokyo,JPN,Asia,Japan,Japan,2018,123951692,5780,11
-Manila,PHL,Asia,Philippines,Philippines,2018,115559009,3980,13
-Seoul,KOR,Asia,South Korea,South Korea,2018,51815810,3820,29
-Bangkok,THA,Asia,Thailand,Thailand,2018,71697030,3460,20
-Brasilia,BRA,South America,Brazil,Brazil,2018,215313498,2390,7
-Abuja,NGA,Africa,Nigeria,Nigeria,2018,218541212,1820,6
-Moscow,RUS,Europe,Russia,Russia,2018,144713314,1850,9
-Kathmandu,NPL,Asia,Nepal,Nepal,2018,30547580,1570,49
-Kuala Lumpur,MYS,Asia,Malaysia,Malaysia,2018,33938221,1370,45
-Mexico City,MEX,North America,Mexico,Mexico,2018,127504125,1120,10
-Taipei,TWN,Asia,Taiwan,Taiwan,2018,23893394,830,57
-Riyadh,SAU,Asia,Saudi Arabia,Saudi Arabia,2018,36408820,550,41
-Nay Pyi Taw,MMR,Asia,Myanmar,Myanmar,2018,54179306,600,26
-Pretoria,ZAF,Africa,South Africa,South Africa,2018,59893885,260,24
-Cairo,EGY,Africa,Egypt,Egypt,2018,110990103,220,14
-Canberra,AUS,Oceania,Australia,Australia,2018,26177413,410,55
-Dhaka,BGD,Asia,Bangladesh,Bangladesh,2018,171186372,310,8
-Ankara,TUR,Asia,Turkey,Turkey,2018,85341241,80,18
-Phnom Penh,KHM,Asia,Cambodia,Cambodia,2018,16767842,330,73
-Berlin,DEU,Europe,Germany,Germany,2018,83369843,320,19
-Warsaw,POL,Europe,Poland,Poland,2018,39857145,310,37
-Nursultan,KAZ,Asia,Kazakhstan,Kazakhstan,2018,19397998,170,66
-Guatemala City,GTM,North America,Guatemala,Guatemala,2018,17843908,230,68
-Islamabad,PAK,Asia,Pakistan,Pakistan,2018,235824862,190,5
-Tashkent,UZB,Asia,Uzbekistan,Uzbekistan,2018,34627652,170,43
-Ottawa,CAN,North America,Canada,Canada,2018,38454327,190,39
-Colombo,LKA,Asia,Sri Lanka,Sri Lanka,2018,21832143,170,61
-Lima,PER,South America,Peru,Peru,2018,34049588,160,44
-Addis Ababa,ETH,Africa,Ethiopia,Ethiopia,2018,123379924,80,12
-Singapore,SGP,Asia,Singapore,Singapore,2018,5975689,130,113
-Nairobi,KEN,Africa,Kenya,Kenya,2018,54027487,50,27
-Paris,FRA,Europe,France,France,2018,64626628,90,23
-Wellington,NZL,Oceania,New Zealand,New Zealand,2018,5185288,80,123
-Madrid,ESP,Europe,Spain,Spain,2018,47558630,70,30
-Prague,CZE,Europe,Czech Republic,Czech Republic,2018,10493986,60,88
-Tehran,IRN,Asia,Iran,Iran,2018,88550570,50,17
-Stockholm,SWE,Europe,Sweden,Sweden,2018,10549347,40,87
-Amsterdam,NLD,Europe,Netherlands,Netherlands,2018,17564014,50,71
-Santiago,CHL,South America,Chile,Chile,2018,19603733,30,65
-Belgrade,SRB,Europe,Serbia,Serbia,2018,7221365,0,105
-Bogota,COL,South America,Colombia,Colombia,2018,51874024,20,28
-Rome,ITA,Europe,Italy,Italy,2018,59037474,20,25
-Budapest,HUN,Europe,Hungary,Hungary,2018,9967308,30,94
-Brussels,BEL,Europe,Belgium,Belgium,2018,11655930,10,81
-Copenhagen,DNK,Europe,Denmark,Denmark,2018,5882261,20,115
-Helsinki,FIN,Europe,Finland,Finland,2018,5540745,10,118
-Bern,CHE,Europe,Switzerland,Switzerland,2018,8740472,10,101
-Buenos Aires,ARG,South America,Argentina,Argentina,2018,45510318,10,33
-San JosÃ©,CRI,North America,Costa Rica,Costa Rica,2018,5180829,10,124
-Kiev,UKR,Europe,Ukraine,Ukraine,2018,39701739,320,38
 Beijing,CHN,Asia,China,China,2019,1425887337,41450,1
-Jakarta,IDN,Asia,Indonesia,Indonesia,2019,275501339,12520,4
-New Delhi,IND,Asia,India,India,2019,1417173173,6730,2
-Tokyo,JPN,Asia,Japan,Japan,2019,123951692,5630,11
-Manila,PHL,Asia,Philippines,Philippines,2019,115559009,3850,13
-Seoul,KOR,Asia,South Korea,South Korea,2019,51815810,3900,29
-Bangkok,THA,Asia,Thailand,Thailand,2019,71697030,3570,20
-Brasilia,BRA,South America,Brazil,Brazil,2019,215313498,2420,7
-Abuja,NGA,Africa,Nigeria,Nigeria,2019,218541212,1920,6
-Moscow,RUS,Europe,Russia,Russia,2019,144713314,1910,9
-Kathmandu,NPL,Asia,Nepal,Nepal,2019,30547580,1640,49
-Kuala Lumpur,MYS,Asia,Malaysia,Malaysia,2019,33938221,1450,45
-Mexico City,MEX,North America,Mexico,Mexico,2019,127504125,1170,10
-Taipei,TWN,Asia,Taiwan,Taiwan,2019,23893394,830,57
-Riyadh,SAU,Asia,Saudi Arabia,Saudi Arabia,2019,36408820,560,41
-Nay Pyi Taw,MMR,Asia,Myanmar,Myanmar,2019,54179306,620,26
-Pretoria,ZAF,Africa,South Africa,South Africa,2019,59893885,280,24
-Cairo,EGY,Africa,Egypt,Egypt,2019,110990103,280,14
-Canberra,AUS,Oceania,Australia,Australia,2019,26177413,420,55
-Dhaka,BGD,Asia,Bangladesh,Bangladesh,2019,171186372,370,8
-Ankara,TUR,Asia,Turkey,Turkey,2019,85341241,120,18
-Phnom Penh,KHM,Asia,Cambodia,Cambodia,2019,16767842,350,73
-Berlin,DEU,Europe,Germany,Germany,2019,83369843,330,19
-Warsaw,POL,Europe,Poland,Poland,2019,39857145,310,37
-Nursultan,KAZ,Asia,Kazakhstan,Kazakhstan,2019,19397998,250,66
-Guatemala City,GTM,North America,Guatemala,Guatemala,2019,17843908,250,68
-Islamabad,PAK,Asia,Pakistan,Pakistan,2019,235824862,200,5
-Tashkent,UZB,Asia,Uzbekistan,Uzbekistan,2019,34627652,210,43
-Ottawa,CAN,North America,Canada,Canada,2019,38454327,190,39
-Colombo,LKA,Asia,Sri Lanka,Sri Lanka,2019,21832143,180,61
-Lima,PER,South America,Peru,Peru,2019,34049588,160,44
-Addis Ababa,ETH,Africa,Ethiopia,Ethiopia,2019,123379924,80,12
-Singapore,SGP,Asia,Singapore,Singapore,2019,5975689,130,113
-Nairobi,KEN,Africa,Kenya,Kenya,2019,54027487,60,27
-Paris,FRA,Europe,France,France,2019,64626628,80,23
-Wellington,NZL,Oceania,New Zealand,New Zealand,2019,5185288,90,123
-Madrid,ESP,Europe,Spain,Spain,2019,47558630,70,30
-Prague,CZE,Europe,Czech Republic,Czech Republic,2019,10493986,70,88
-Tehran,IRN,Asia,Iran,Iran,2019,88550570,50,17
-Stockholm,SWE,Europe,Sweden,Sweden,2019,10549347,50,87
-Amsterdam,NLD,Europe,Netherlands,Netherlands,2019,17564014,50,71
-Santiago,CHL,South America,Chile,Chile,2019,19603733,30,65
-Belgrade,SRB,Europe,Serbia,Serbia,2019,7221365,0,105
-Bogota,COL,South America,Colombia,Colombia,2019,51874024,20,28
-Rome,ITA,Europe,Italy,Italy,2019,59037474,20,25
-Budapest,HUN,Europe,Hungary,Hungary,2019,9967308,40,94
-Brussels,BEL,Europe,Belgium,Belgium,2019,11655930,20,81
-Copenhagen,DNK,Europe,Denmark,Denmark,2019,5882261,20,115
-Helsinki,FIN,Europe,Finland,Finland,2019,5540745,20,118
-Bern,CHE,Europe,Switzerland,Switzerland,2019,8740472,10,101
-Buenos Aires,ARG,South America,Argentina,Argentina,2019,45510318,10,33
-San JosÃ©,CRI,North America,Costa Rica,Costa Rica,2019,5180829,10,124
-Kiev,UKR,Europe,Ukraine,Ukraine,2019,39701739,340,38
 Beijing,CHN,Asia,China,China,2020,1425887337,46360,1
-Jakarta,IDN,Asia,Indonesia,Indonesia,2020,275501339,12640,4
-New Delhi,IND,Asia,India,India,2020,1417173173,6730,2
-Tokyo,JPN,Asia,Japan,Japan,2020,123951692,5970,11
-Manila,PHL,Asia,Philippines,Philippines,2020,115559009,4470,13
-Seoul,KOR,Asia,South Korea,South Korea,2020,51815810,4130,29
-Bangkok,THA,Asia,Thailand,Thailand,2020,71697030,3710,20
-Brasilia,BRA,South America,Brazil,Brazil,2020,215313498,2720,7
-Abuja,NGA,Africa,Nigeria,Nigeria,2020,218541212,2460,6
-Moscow,RUS,Europe,Russia,Russia,2020,144713314,2000,9
-Kathmandu,NPL,Asia,Nepal,Nepal,2020,30547580,1540,49
-Kuala Lumpur,MYS,Asia,Malaysia,Malaysia,2020,33938221,1570,45
-Mexico City,MEX,North America,Mexico,Mexico,2020,127504125,1160,10
-Taipei,TWN,Asia,Taiwan,Taiwan,2020,23893394,870,57
-Riyadh,SAU,Asia,Saudi Arabia,Saudi Arabia,2020,36408820,830,41
-Nay Pyi Taw,MMR,Asia,Myanmar,Myanmar,2020,54179306,660,26
-Pretoria,ZAF,Africa,South Africa,South Africa,2020,59893885,350,24
-Cairo,EGY,Africa,Egypt,Egypt,2020,110990103,350,14
-Canberra,AUS,Oceania,Australia,Australia,2020,26177413,440,55
-Dhaka,BGD,Asia,Bangladesh,Bangladesh,2020,171186372,370,8
-Ankara,TUR,Asia,Turkey,Turkey,2020,85341241,190,18
-Phnom Penh,KHM,Asia,Cambodia,Cambodia,2020,16767842,370,73
-Berlin,DEU,Europe,Germany,Germany,2020,83369843,370,19
-Warsaw,POL,Europe,Poland,Poland,2020,39857145,330,37
-Nursultan,KAZ,Asia,Kazakhstan,Kazakhstan,2020,19397998,280,66
-Guatemala City,GTM,North America,Guatemala,Guatemala,2020,17843908,260,68
-Islamabad,PAK,Asia,Pakistan,Pakistan,2020,235824862,220,5
-Tashkent,UZB,Asia,Uzbekistan,Uzbekistan,2020,34627652,210,43
-Ottawa,CAN,North America,Canada,Canada,2020,38454327,190,39
-Colombo,LKA,Asia,Sri Lanka,Sri Lanka,2020,21832143,180,61
-Lima,PER,South America,Peru,Peru,2020,34049588,160,44
-Addis Ababa,ETH,Africa,Ethiopia,Ethiopia,2020,123379924,120,12
-Singapore,SGP,Asia,Singapore,Singapore,2020,5975689,160,113
-Nairobi,KEN,Africa,Kenya,Kenya,2020,54027487,80,27
-Paris,FRA,Europe,France,France,2020,64626628,90,23
-Wellington,NZL,Oceania,New Zealand,New Zealand,2020,5185288,90,123
-Madrid,ESP,Europe,Spain,Spain,2020,47558630,80,30
-Prague,CZE,Europe,Czech Republic,Czech Republic,2020,10493986,70,88
-Tehran,IRN,Asia,Iran,Iran,2020,88550570,60,17
-Stockholm,SWE,Europe,Sweden,Sweden,2020,10549347,60,87
-Amsterdam,NLD,Europe,Netherlands,Netherlands,2020,17564014,50,71
-Santiago,CHL,South America,Chile,Chile,2020,19603733,20,65
-Belgrade,SRB,Europe,Serbia,Serbia,2020,7221365,0,105
-Bogota,COL,South America,Colombia,Colombia,2020,51874024,20,28
-Rome,ITA,Europe,Italy,Italy,2020,59037474,30,25
-Budapest,HUN,Europe,Hungary,Hungary,2020,9967308,40,94
-Brussels,BEL,Europe,Belgium,Belgium,2020,11655930,20,81
-Copenhagen,DNK,Europe,Denmark,Denmark,2020,5882261,10,115
-Helsinki,FIN,Europe,Finland,Finland,2020,5540745,20,118
-Bern,CHE,Europe,Switzerland,Switzerland,2020,8740472,10,101
-Buenos Aires,ARG,South America,Argentina,Argentina,2020,45510318,0,33
-San JosÃ©,CRI,North America,Costa Rica,Costa Rica,2020,5180829,10,124
-Kiev,UKR,Europe,Ukraine,Ukraine,2020,39701739,320,38
 Beijing,CHN,Asia,China,China,2021,1425887337,43990,1
-Jakarta,IDN,Asia,Indonesia,Indonesia,2021,275501339,13270,4
-New Delhi,IND,Asia,India,India,2021,1417173173,7560,2
-Tokyo,JPN,Asia,Japan,Japan,2021,123951692,5850,11
-Manila,PHL,Asia,Philippines,Philippines,2021,115559009,4440,13
-Seoul,KOR,Asia,South Korea,South Korea,2021,51815810,3790,29
-Bangkok,THA,Asia,Thailand,Thailand,2021,71697030,3630,20
-Brasilia,BRA,South America,Brazil,Brazil,2021,215313498,2850,7
-Abuja,NGA,Africa,Nigeria,Nigeria,2021,218541212,2620,6
-Moscow,RUS,Europe,Russia,Russia,2021,144713314,2100,9
-Kathmandu,NPL,Asia,Nepal,Nepal,2021,30547580,1590,49
-Kuala Lumpur,MYS,Asia,Malaysia,Malaysia,2021,33938221,1580,45
-Mexico City,MEX,North America,Mexico,Mexico,2021,127504125,1360,10
-Taipei,TWN,Asia,Taiwan,Taiwan,2021,23893394,900,57
-Riyadh,SAU,Asia,Saudi Arabia,Saudi Arabia,2021,36408820,850,41
-Nay Pyi Taw,MMR,Asia,Myanmar,Myanmar,2021,54179306,760,26
-Pretoria,ZAF,Africa,South Africa,South Africa,2021,59893885,410,24
-Cairo,EGY,Africa,Egypt,Egypt,2021,110990103,400,14
-Canberra,AUS,Oceania,Australia,Australia,2021,26177413,450,55
-Dhaka,BGD,Asia,Bangladesh,Bangladesh,2021,171186372,430,8
-Ankara,TUR,Asia,Turkey,Turkey,2021,85341241,360,18
-Phnom Penh,KHM,Asia,Cambodia,Cambodia,2021,16767842,410,73
-Berlin,DEU,Europe,Germany,Germany,2021,83369843,390,19
-Warsaw,POL,Europe,Poland,Poland,2021,39857145,340,37
-Nursultan,KAZ,Asia,Kazakhstan,Kazakhstan,2021,19397998,320,66
-Guatemala City,GTM,North America,Guatemala,Guatemala,2021,17843908,270,68
-Islamabad,PAK,Asia,Pakistan,Pakistan,2021,235824862,230,5
-Tashkent,UZB,Asia,Uzbekistan,Uzbekistan,2021,34627652,210,43
-Ottawa,CAN,North America,Canada,Canada,2021,38454327,200,39
-Colombo,LKA,Asia,Sri Lanka,Sri Lanka,2021,21832143,190,61
-Lima,PER,South America,Peru,Peru,2021,34049588,170,44
-Addis Ababa,ETH,Africa,Ethiopia,Ethiopia,2021,123379924,130,12
-Singapore,SGP,Asia,Singapore,Singapore,2021,5975689,140,113
-Nairobi,KEN,Africa,Kenya,Kenya,2021,54027487,100,27
-Paris,FRA,Europe,France,France,2021,64626628,100,23
-Wellington,NZL,Oceania,New Zealand,New Zealand,2021,5185288,90,123
-Madrid,ESP,Europe,Spain,Spain,2021,47558630,90,30
-Prague,CZE,Europe,Czech Republic,Czech Republic,2021,10493986,70,88
-Tehran,IRN,Asia,Iran,Iran,2021,88550570,60,17
-Stockholm,SWE,Europe,Sweden,Sweden,2021,10549347,60,87
-Amsterdam,NLD,Europe,Netherlands,Netherlands,2021,17564014,50,71
-Santiago,CHL,South America,Chile,Chile,2021,19603733,50,65
-Belgrade,SRB,Europe,Serbia,Serbia,2021,7221365,50,105
-Bogota,COL,South America,Colombia,Colombia,2021,51874024,20,28
-Rome,ITA,Europe,Italy,Italy,2021,59037474,40,25
-Budapest,HUN,Europe,Hungary,Hungary,2021,9967308,40,94
-Brussels,BEL,Europe,Belgium,Belgium,2021,11655930,20,81
-Copenhagen,DNK,Europe,Denmark,Denmark,2021,5882261,10,115
-Helsinki,FIN,Europe,Finland,Finland,2021,5540745,20,118
-Bern,CHE,Europe,Switzerland,Switzerland,2021,8740472,10,101
-Buenos Aires,ARG,South America,Argentina,Argentina,2021,45510318,20,33
-San JosÃ©,CRI,North America,Costa Rica,Costa Rica,2021,5180829,20,124
-Kiev,UKR,Europe,Ukraine,Ukraine,2021,39701739,350,38
 Beijing,CHN,Asia,China,China,2022,1425887337,45070,1
+Jakarta,IDN,Asia,Indonesia,Indonesia,2018,275501339,12540,4
+Jakarta,IDN,Asia,Indonesia,Indonesia,2019,275501339,12520,4
+Jakarta,IDN,Asia,Indonesia,Indonesia,2020,275501339,12640,4
+Jakarta,IDN,Asia,Indonesia,Indonesia,2021,275501339,13270,4
 Jakarta,IDN,Asia,Indonesia,Indonesia,2022,275501339,14260,4
+New Delhi,IND,Asia,India,India,2018,1417173173,6060,2
+New Delhi,IND,Asia,India,India,2019,1417173173,6730,2
+New Delhi,IND,Asia,India,India,2020,1417173173,6730,2
+New Delhi,IND,Asia,India,India,2021,1417173173,7560,2
 New Delhi,IND,Asia,India,India,2022,1417173173,7580,2
+Tokyo,JPN,Asia,Japan,Japan,2018,123951692,5780,11
+Tokyo,JPN,Asia,Japan,Japan,2019,123951692,5630,11
+Tokyo,JPN,Asia,Japan,Japan,2020,123951692,5970,11
+Tokyo,JPN,Asia,Japan,Japan,2021,123951692,5850,11
 Tokyo,JPN,Asia,Japan,Japan,2022,123951692,5980,11
+Manila,PHL,Asia,Philippines,Philippines,2018,115559009,3980,13
+Manila,PHL,Asia,Philippines,Philippines,2019,115559009,3850,13
+Manila,PHL,Asia,Philippines,Philippines,2020,115559009,4470,13
+Manila,PHL,Asia,Philippines,Philippines,2021,115559009,4440,13
 Manila,PHL,Asia,Philippines,Philippines,2022,115559009,4290,13
+Seoul,KOR,Asia,South Korea,South Korea,2018,51815810,3820,29
+Seoul,KOR,Asia,South Korea,South Korea,2019,51815810,3900,29
+Seoul,KOR,Asia,South Korea,South Korea,2020,51815810,4130,29
+Seoul,KOR,Asia,South Korea,South Korea,2021,51815810,3790,29
 Seoul,KOR,Asia,South Korea,South Korea,2022,51815810,3950,29
+Bangkok,THA,Asia,Thailand,Thailand,2018,71697030,3460,20
+Bangkok,THA,Asia,Thailand,Thailand,2019,71697030,3570,20
+Bangkok,THA,Asia,Thailand,Thailand,2020,71697030,3710,20
+Bangkok,THA,Asia,Thailand,Thailand,2021,71697030,3630,20
 Bangkok,THA,Asia,Thailand,Thailand,2022,71697030,3870,20
+Brasilia,BRA,South America,Brazil,Brazil,2018,215313498,2390,7
+Brasilia,BRA,South America,Brazil,Brazil,2019,215313498,2420,7
+Brasilia,BRA,South America,Brazil,Brazil,2020,215313498,2720,7
+Brasilia,BRA,South America,Brazil,Brazil,2021,215313498,2850,7
 Brasilia,BRA,South America,Brazil,Brazil,2022,215313498,2830,7
+Abuja,NGA,Africa,Nigeria,Nigeria,2018,218541212,1820,6
+Abuja,NGA,Africa,Nigeria,Nigeria,2019,218541212,1920,6
+Abuja,NGA,Africa,Nigeria,Nigeria,2020,218541212,2460,6
+Abuja,NGA,Africa,Nigeria,Nigeria,2021,218541212,2620,6
 Abuja,NGA,Africa,Nigeria,Nigeria,2022,218541212,2790,6
+Moscow,RUS,Europe,Russia,Russia,2018,144713314,1850,9
+Moscow,RUS,Europe,Russia,Russia,2019,144713314,1910,9
+Moscow,RUS,Europe,Russia,Russia,2020,144713314,2000,9
+Moscow,RUS,Europe,Russia,Russia,2021,144713314,2100,9
 Moscow,RUS,Europe,Russia,Russia,2022,144713314,2200,9
+Kathmandu,NPL,Asia,Nepal,Nepal,2018,30547580,1570,49
+Kathmandu,NPL,Asia,Nepal,Nepal,2019,30547580,1640,49
+Kathmandu,NPL,Asia,Nepal,Nepal,2020,30547580,1540,49
+Kathmandu,NPL,Asia,Nepal,Nepal,2021,30547580,1590,49
 Kathmandu,NPL,Asia,Nepal,Nepal,2022,30547580,1650,49
+Kuala Lumpur,MYS,Asia,Malaysia,Malaysia,2018,33938221,1370,45
+Kuala Lumpur,MYS,Asia,Malaysia,Malaysia,2019,33938221,1450,45
+Kuala Lumpur,MYS,Asia,Malaysia,Malaysia,2020,33938221,1570,45
+Kuala Lumpur,MYS,Asia,Malaysia,Malaysia,2021,33938221,1580,45
 Kuala Lumpur,MYS,Asia,Malaysia,Malaysia,2022,33938221,1550,45
+Mexico City,MEX,North America,Mexico,Mexico,2018,127504125,1120,10
+Mexico City,MEX,North America,Mexico,Mexico,2019,127504125,1170,10
+Mexico City,MEX,North America,Mexico,Mexico,2020,127504125,1160,10
+Mexico City,MEX,North America,Mexico,Mexico,2021,127504125,1360,10
 Mexico City,MEX,North America,Mexico,Mexico,2022,127504125,1510,10
+Taipei,TWN,Asia,Taiwan,Taiwan,2018,23893394,830,57
+Taipei,TWN,Asia,Taiwan,Taiwan,2019,23893394,830,57
+Taipei,TWN,Asia,Taiwan,Taiwan,2020,23893394,870,57
+Taipei,TWN,Asia,Taiwan,Taiwan,2021,23893394,900,57
 Taipei,TWN,Asia,Taiwan,Taiwan,2022,23893394,880,57
+Riyadh,SAU,Asia,Saudi Arabia,Saudi Arabia,2018,36408820,550,41
+Riyadh,SAU,Asia,Saudi Arabia,Saudi Arabia,2019,36408820,560,41
+Riyadh,SAU,Asia,Saudi Arabia,Saudi Arabia,2020,36408820,830,41
+Riyadh,SAU,Asia,Saudi Arabia,Saudi Arabia,2021,36408820,850,41
 Riyadh,SAU,Asia,Saudi Arabia,Saudi Arabia,2022,36408820,870,41
+Nay Pyi Taw,MMR,Asia,Myanmar,Myanmar,2018,54179306,600,26
+Nay Pyi Taw,MMR,Asia,Myanmar,Myanmar,2019,54179306,620,26
+Nay Pyi Taw,MMR,Asia,Myanmar,Myanmar,2020,54179306,660,26
+Nay Pyi Taw,MMR,Asia,Myanmar,Myanmar,2021,54179306,760,26
 Nay Pyi Taw,MMR,Asia,Myanmar,Myanmar,2022,54179306,770,26
+Pretoria,ZAF,Africa,South Africa,South Africa,2018,59893885,260,24
+Pretoria,ZAF,Africa,South Africa,South Africa,2019,59893885,280,24
+Pretoria,ZAF,Africa,South Africa,South Africa,2020,59893885,350,24
+Pretoria,ZAF,Africa,South Africa,South Africa,2021,59893885,410,24
 Pretoria,ZAF,Africa,South Africa,South Africa,2022,59893885,480,24
+Cairo,EGY,Africa,Egypt,Egypt,2018,110990103,220,14
+Cairo,EGY,Africa,Egypt,Egypt,2019,110990103,280,14
+Cairo,EGY,Africa,Egypt,Egypt,2020,110990103,350,14
+Cairo,EGY,Africa,Egypt,Egypt,2021,110990103,400,14
 Cairo,EGY,Africa,Egypt,Egypt,2022,110990103,460,14
+Canberra,AUS,Oceania,Australia,Australia,2018,26177413,410,55
+Canberra,AUS,Oceania,Australia,Australia,2019,26177413,420,55
+Canberra,AUS,Oceania,Australia,Australia,2020,26177413,440,55
+Canberra,AUS,Oceania,Australia,Australia,2021,26177413,450,55
 Canberra,AUS,Oceania,Australia,Australia,2022,26177413,450,55
+Dhaka,BGD,Asia,Bangladesh,Bangladesh,2018,171186372,310,8
+Dhaka,BGD,Asia,Bangladesh,Bangladesh,2019,171186372,370,8
+Dhaka,BGD,Asia,Bangladesh,Bangladesh,2020,171186372,370,8
+Dhaka,BGD,Asia,Bangladesh,Bangladesh,2021,171186372,430,8
 Dhaka,BGD,Asia,Bangladesh,Bangladesh,2022,171186372,440,8
+Ankara,TUR,Asia,Turkey,Turkey,2018,85341241,80,18
+Ankara,TUR,Asia,Turkey,Turkey,2019,85341241,120,18
+Ankara,TUR,Asia,Turkey,Turkey,2020,85341241,190,18
+Ankara,TUR,Asia,Turkey,Turkey,2021,85341241,360,18
 Ankara,TUR,Asia,Turkey,Turkey,2022,85341241,420,18
+Phnom Penh,KHM,Asia,Cambodia,Cambodia,2018,16767842,330,73
+Phnom Penh,KHM,Asia,Cambodia,Cambodia,2019,16767842,350,73
+Phnom Penh,KHM,Asia,Cambodia,Cambodia,2020,16767842,370,73
+Phnom Penh,KHM,Asia,Cambodia,Cambodia,2021,16767842,410,73
 Phnom Penh,KHM,Asia,Cambodia,Cambodia,2022,16767842,400,73
+Berlin,DEU,Europe,Germany,Germany,2018,83369843,320,19
+Berlin,DEU,Europe,Germany,Germany,2019,83369843,330,19
+Berlin,DEU,Europe,Germany,Germany,2020,83369843,370,19
+Berlin,DEU,Europe,Germany,Germany,2021,83369843,390,19
 Berlin,DEU,Europe,Germany,Germany,2022,83369843,390,19
+Warsaw,POL,Europe,Poland,Poland,2018,39857145,310,37
+Warsaw,POL,Europe,Poland,Poland,2019,39857145,310,37
+Warsaw,POL,Europe,Poland,Poland,2020,39857145,330,37
+Warsaw,POL,Europe,Poland,Poland,2021,39857145,340,37
 Warsaw,POL,Europe,Poland,Poland,2022,39857145,380,37
+Nursultan,KAZ,Asia,Kazakhstan,Kazakhstan,2018,19397998,170,66
+Nursultan,KAZ,Asia,Kazakhstan,Kazakhstan,2019,19397998,250,66
+Nursultan,KAZ,Asia,Kazakhstan,Kazakhstan,2020,19397998,280,66
+Nursultan,KAZ,Asia,Kazakhstan,Kazakhstan,2021,19397998,320,66
 Nursultan,KAZ,Asia,Kazakhstan,Kazakhstan,2022,19397998,360,66
+Guatemala City,GTM,North America,Guatemala,Guatemala,2018,17843908,230,68
+Guatemala City,GTM,North America,Guatemala,Guatemala,2019,17843908,250,68
+Guatemala City,GTM,North America,Guatemala,Guatemala,2020,17843908,260,68
+Guatemala City,GTM,North America,Guatemala,Guatemala,2021,17843908,270,68
 Guatemala City,GTM,North America,Guatemala,Guatemala,2022,17843908,280,68
+Islamabad,PAK,Asia,Pakistan,Pakistan,2018,235824862,190,5
+Islamabad,PAK,Asia,Pakistan,Pakistan,2019,235824862,200,5
+Islamabad,PAK,Asia,Pakistan,Pakistan,2020,235824862,220,5
+Islamabad,PAK,Asia,Pakistan,Pakistan,2021,235824862,230,5
 Islamabad,PAK,Asia,Pakistan,Pakistan,2022,235824862,240,5
+Tashkent,UZB,Asia,Uzbekistan,Uzbekistan,2018,34627652,170,43
+Tashkent,UZB,Asia,Uzbekistan,Uzbekistan,2019,34627652,210,43
+Tashkent,UZB,Asia,Uzbekistan,Uzbekistan,2020,34627652,210,43
+Tashkent,UZB,Asia,Uzbekistan,Uzbekistan,2021,34627652,210,43
 Tashkent,UZB,Asia,Uzbekistan,Uzbekistan,2022,34627652,210,43
+Ottawa,CAN,North America,Canada,Canada,2018,38454327,190,39
+Ottawa,CAN,North America,Canada,Canada,2019,38454327,190,39
+Ottawa,CAN,North America,Canada,Canada,2020,38454327,190,39
+Ottawa,CAN,North America,Canada,Canada,2021,38454327,200,39
 Ottawa,CAN,North America,Canada,Canada,2022,38454327,200,39
+Colombo,LKA,Asia,Sri Lanka,Sri Lanka,2018,21832143,170,61
+Colombo,LKA,Asia,Sri Lanka,Sri Lanka,2019,21832143,180,61
+Colombo,LKA,Asia,Sri Lanka,Sri Lanka,2020,21832143,180,61
+Colombo,LKA,Asia,Sri Lanka,Sri Lanka,2021,21832143,190,61
 Colombo,LKA,Asia,Sri Lanka,Sri Lanka,2022,21832143,200,61
+Lima,PER,South America,Peru,Peru,2018,34049588,160,44
+Lima,PER,South America,Peru,Peru,2019,34049588,160,44
+Lima,PER,South America,Peru,Peru,2020,34049588,160,44
+Lima,PER,South America,Peru,Peru,2021,34049588,170,44
 Lima,PER,South America,Peru,Peru,2022,34049588,170,44
+Addis Ababa,ETH,Africa,Ethiopia,Ethiopia,2018,123379924,80,12
+Addis Ababa,ETH,Africa,Ethiopia,Ethiopia,2019,123379924,80,12
+Addis Ababa,ETH,Africa,Ethiopia,Ethiopia,2020,123379924,120,12
+Addis Ababa,ETH,Africa,Ethiopia,Ethiopia,2021,123379924,130,12
 Addis Ababa,ETH,Africa,Ethiopia,Ethiopia,2022,123379924,140,12
+Singapore,SGP,Asia,Singapore,Singapore,2018,5975689,130,113
+Singapore,SGP,Asia,Singapore,Singapore,2019,5975689,130,113
+Singapore,SGP,Asia,Singapore,Singapore,2020,5975689,160,113
+Singapore,SGP,Asia,Singapore,Singapore,2021,5975689,140,113
 Singapore,SGP,Asia,Singapore,Singapore,2022,5975689,130,113
+Nairobi,KEN,Africa,Kenya,Kenya,2018,54027487,50,27
+Nairobi,KEN,Africa,Kenya,Kenya,2019,54027487,60,27
+Nairobi,KEN,Africa,Kenya,Kenya,2020,54027487,80,27
+Nairobi,KEN,Africa,Kenya,Kenya,2021,54027487,100,27
 Nairobi,KEN,Africa,Kenya,Kenya,2022,54027487,130,27
+Paris,FRA,Europe,France,France,2018,64626628,90,23
+Paris,FRA,Europe,France,France,2019,64626628,80,23
+Paris,FRA,Europe,France,France,2020,64626628,90,23
+Paris,FRA,Europe,France,France,2021,64626628,100,23
 Paris,FRA,Europe,France,France,2022,64626628,110,23
+Wellington,NZL,Oceania,New Zealand,New Zealand,2018,5185288,80,123
+Wellington,NZL,Oceania,New Zealand,New Zealand,2019,5185288,90,123
+Wellington,NZL,Oceania,New Zealand,New Zealand,2020,5185288,90,123
+Wellington,NZL,Oceania,New Zealand,New Zealand,2021,5185288,90,123
 Wellington,NZL,Oceania,New Zealand,New Zealand,2022,5185288,100,123
+Madrid,ESP,Europe,Spain,Spain,2018,47558630,70,30
+Madrid,ESP,Europe,Spain,Spain,2019,47558630,70,30
+Madrid,ESP,Europe,Spain,Spain,2020,47558630,80,30
+Madrid,ESP,Europe,Spain,Spain,2021,47558630,90,30
 Madrid,ESP,Europe,Spain,Spain,2022,47558630,90,30
+Prague,CZE,Europe,Czech Republic,Czech Republic,2018,10493986,60,88
+Prague,CZE,Europe,Czech Republic,Czech Republic,2019,10493986,70,88
+Prague,CZE,Europe,Czech Republic,Czech Republic,2020,10493986,70,88
+Prague,CZE,Europe,Czech Republic,Czech Republic,2021,10493986,70,88
 Prague,CZE,Europe,Czech Republic,Czech Republic,2022,10493986,70,88
+Tehran,IRN,Asia,Iran,Iran,2018,88550570,50,17
+Tehran,IRN,Asia,Iran,Iran,2019,88550570,50,17
+Tehran,IRN,Asia,Iran,Iran,2020,88550570,60,17
+Tehran,IRN,Asia,Iran,Iran,2021,88550570,60,17
 Tehran,IRN,Asia,Iran,Iran,2022,88550570,70,17
+Stockholm,SWE,Europe,Sweden,Sweden,2018,10549347,40,87
+Stockholm,SWE,Europe,Sweden,Sweden,2019,10549347,50,87
+Stockholm,SWE,Europe,Sweden,Sweden,2020,10549347,60,87
+Stockholm,SWE,Europe,Sweden,Sweden,2021,10549347,60,87
 Stockholm,SWE,Europe,Sweden,Sweden,2022,10549347,60,87
+Amsterdam,NLD,Europe,Netherlands,Netherlands,2018,17564014,50,71
+Amsterdam,NLD,Europe,Netherlands,Netherlands,2019,17564014,50,71
+Amsterdam,NLD,Europe,Netherlands,Netherlands,2020,17564014,50,71
+Amsterdam,NLD,Europe,Netherlands,Netherlands,2021,17564014,50,71
 Amsterdam,NLD,Europe,Netherlands,Netherlands,2022,17564014,60,71
+Santiago,CHL,South America,Chile,Chile,2018,19603733,30,65
+Santiago,CHL,South America,Chile,Chile,2019,19603733,30,65
+Santiago,CHL,South America,Chile,Chile,2020,19603733,20,65
+Santiago,CHL,South America,Chile,Chile,2021,19603733,50,65
 Santiago,CHL,South America,Chile,Chile,2022,19603733,60,65
+Belgrade,SRB,Europe,Serbia,Serbia,2018,7221365,0,105
+Belgrade,SRB,Europe,Serbia,Serbia,2019,7221365,0,105
+Belgrade,SRB,Europe,Serbia,Serbia,2020,7221365,0,105
+Belgrade,SRB,Europe,Serbia,Serbia,2021,7221365,50,105
 Belgrade,SRB,Europe,Serbia,Serbia,2022,7221365,50,105
+Bogota,COL,South America,Colombia,Colombia,2018,51874024,20,28
+Bogota,COL,South America,Colombia,Colombia,2019,51874024,20,28
+Bogota,COL,South America,Colombia,Colombia,2020,51874024,20,28
+Bogota,COL,South America,Colombia,Colombia,2021,51874024,20,28
 Bogota,COL,South America,Colombia,Colombia,2022,51874024,50,28
+Rome,ITA,Europe,Italy,Italy,2018,59037474,20,25
+Rome,ITA,Europe,Italy,Italy,2019,59037474,20,25
+Rome,ITA,Europe,Italy,Italy,2020,59037474,30,25
+Rome,ITA,Europe,Italy,Italy,2021,59037474,40,25
 Rome,ITA,Europe,Italy,Italy,2022,59037474,40,25
+Budapest,HUN,Europe,Hungary,Hungary,2018,9967308,30,94
+Budapest,HUN,Europe,Hungary,Hungary,2019,9967308,40,94
+Budapest,HUN,Europe,Hungary,Hungary,2020,9967308,40,94
+Budapest,HUN,Europe,Hungary,Hungary,2021,9967308,40,94
 Budapest,HUN,Europe,Hungary,Hungary,2022,9967308,40,94
+Brussels,BEL,Europe,Belgium,Belgium,2018,11655930,10,81
+Brussels,BEL,Europe,Belgium,Belgium,2019,11655930,20,81
+Brussels,BEL,Europe,Belgium,Belgium,2020,11655930,20,81
+Brussels,BEL,Europe,Belgium,Belgium,2021,11655930,20,81
 Brussels,BEL,Europe,Belgium,Belgium,2022,11655930,20,81
+Copenhagen,DNK,Europe,Denmark,Denmark,2018,5882261,20,115
+Copenhagen,DNK,Europe,Denmark,Denmark,2019,5882261,20,115
+Copenhagen,DNK,Europe,Denmark,Denmark,2020,5882261,10,115
+Copenhagen,DNK,Europe,Denmark,Denmark,2021,5882261,10,115
 Copenhagen,DNK,Europe,Denmark,Denmark,2022,5882261,20,115
+Helsinki,FIN,Europe,Finland,Finland,2018,5540745,10,118
+Helsinki,FIN,Europe,Finland,Finland,2019,5540745,20,118
+Helsinki,FIN,Europe,Finland,Finland,2020,5540745,20,118
+Helsinki,FIN,Europe,Finland,Finland,2021,5540745,20,118
 Helsinki,FIN,Europe,Finland,Finland,2022,5540745,20,118
+Bern,CHE,Europe,Switzerland,Switzerland,2018,8740472,10,101
+Bern,CHE,Europe,Switzerland,Switzerland,2019,8740472,10,101
+Bern,CHE,Europe,Switzerland,Switzerland,2020,8740472,10,101
+Bern,CHE,Europe,Switzerland,Switzerland,2021,8740472,10,101
 Bern,CHE,Europe,Switzerland,Switzerland,2022,8740472,20,101
+Buenos Aires,ARG,South America,Argentina,Argentina,2018,45510318,10,33
+Buenos Aires,ARG,South America,Argentina,Argentina,2019,45510318,10,33
+Buenos Aires,ARG,South America,Argentina,Argentina,2020,45510318,0,33
+Buenos Aires,ARG,South America,Argentina,Argentina,2021,45510318,20,33
 Buenos Aires,ARG,South America,Argentina,Argentina,2022,45510318,10,33
+San JosÃ©,CRI,North America,Costa Rica,Costa Rica,2018,5180829,10,124
+San JosÃ©,CRI,North America,Costa Rica,Costa Rica,2019,5180829,10,124
+San JosÃ©,CRI,North America,Costa Rica,Costa Rica,2020,5180829,10,124
+San JosÃ©,CRI,North America,Costa Rica,Costa Rica,2021,5180829,20,124
 San JosÃ©,CRI,North America,Costa Rica,Costa Rica,2022,5180829,10,124
+Kiev,UKR,Europe,Ukraine,Ukraine,2018,39701739,320,38
+Kiev,UKR,Europe,Ukraine,Ukraine,2019,39701739,340,38
+Kiev,UKR,Europe,Ukraine,Ukraine,2020,39701739,320,38
+Kiev,UKR,Europe,Ukraine,Ukraine,2021,39701739,350,38
 Kiev,UKR,Europe,Ukraine,Ukraine,2022,39701739,0,38
