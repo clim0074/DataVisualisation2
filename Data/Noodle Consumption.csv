@@ -1,4 +1,4 @@
-﻿Capital,Cca3,Continent,Country,Territory,Year,2022Population,Consumptionvalue,Rank
+﻿Capital,Cca3,Continent,Country,Territory,Year,2022Population,ConsumptionValue,Rank
 Beijing,CHN,Asia,China,China,2018,1425887337,40250,1
 Beijing,CHN,Asia,China,China,2019,1425887337,41450,1
 Beijing,CHN,Asia,China,China,2020,1425887337,46360,1
@@ -209,9 +209,9 @@ Santiago,CHL,South America,Chile,Chile,2019,19603733,30,65
 Santiago,CHL,South America,Chile,Chile,2020,19603733,20,65
 Santiago,CHL,South America,Chile,Chile,2021,19603733,50,65
 Santiago,CHL,South America,Chile,Chile,2022,19603733,60,65
-Belgrade,SRB,Europe,Serbia,Serbia,2018,7221365,,105
-Belgrade,SRB,Europe,Serbia,Serbia,2019,7221365,,105
-Belgrade,SRB,Europe,Serbia,Serbia,2020,7221365,,105
+Belgrade,SRB,Europe,Serbia,Serbia,2018,7221365,0,105
+Belgrade,SRB,Europe,Serbia,Serbia,2019,7221365,0,105
+Belgrade,SRB,Europe,Serbia,Serbia,2020,7221365,0,105
 Belgrade,SRB,Europe,Serbia,Serbia,2021,7221365,50,105
 Belgrade,SRB,Europe,Serbia,Serbia,2022,7221365,50,105
 Bogota,COL,South America,Colombia,Colombia,2018,51874024,20,28
