@@ -62,7 +62,8 @@
           {
             "field": "2022 Consumption Value",
             "type": "quantitative",
-            "title": "Consumption value per 1 million population (USD Billion)"
+            "title": "Consumption value per 1 million population (USD Billion)",
+            "format": ".2f"
           }
         ]
       }
