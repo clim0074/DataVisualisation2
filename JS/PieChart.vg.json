@@ -9,11 +9,7 @@
     "calculate": "datum.ConsumptionValue + 0", "as": "Consumption Value (USD Billion)"
   }],
   "layer": [
-    {"mark": {"type": "arc", "tooltip": true}},
-    {
-      "mark": {"type": "text", "radius": 130, "fill": "#202630", "angle": 75, "fontSize":12},
-      "encoding": {"text": {"field": "Continent", "type": "nominal"}},
-    }
+    {"mark": {"type": "arc", "tooltip": true}}
   ],
   
   "encoding": {
