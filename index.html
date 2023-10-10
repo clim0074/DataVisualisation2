@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instant Noodle Consumption Visualization</title>
-    <link rel="stylesheet" href="Css/styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
         <h1 class="title">Instant Noodle Consumption Visualization</h1>
-        <p class="description">Explore the global trends in instant noodle consumption with our interactive visualizations.</p>
-        <div class="map-container" id="ChoroplethMap"></div>
+        <p class="description">
+          In recent years, instant noodles have become a staple in many households worldwide, offering <b style="color:rgb(204, 11, 4)">convenience and affordability</b>. This visualization explores the trends in <b style="color:rgb(204, 11, 4)">instant noodle consumption value</b> on a global scale. 
+        </p>
+        <div class="map-container" id="Week10HomeworkMap"></div>
         <div class="map-description">
             <h2>World Map</h2>
             <p>Hover over the map to see noodle consumption values by country.</p>
@@ -23,8 +25,8 @@
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
     <script type="text/javascript">
       
-      var spec2 = "JS/ChoroplethMap.vg.json";
-      vegaEmbed('#ChoroplethMap', spec2, { "actions": false }).then(function(result) {
+      var spec2 = "Week10HomeworkMap.vg.json";
+      vegaEmbed('#Week10HomeworkMap', spec2).then(function(result) {
         // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
       }).catch(console.error);
     </script>
