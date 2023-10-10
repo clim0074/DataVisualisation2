@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 900,
+  "width": 750,
   "height": 500,
   "projection": {"type": "equalEarth"},
   "layer": [
@@ -64,13 +64,13 @@
         },
         {
           "calculate": "parseInt(datum.ConsumptionValue) / parseInt(datum.Population) * 1000000",
-          "as": "2022 Consumption Value"
+          "as": "Consumption Value (USD Billion)"
         },
         {"filter": "datum.Year == 2022"}
       ],
       "encoding": {
         "color": {
-          "field": "2022 Consumption Value (USD Billion)",
+          "field": "Consumption Value (USD Billion)",
           "type": "quantitative",
           "scale": {
             "type": "threshold",
@@ -83,7 +83,7 @@
           {
             "field": "ConsumptionValue",
             "type": "quantitative",
-            "title": "Total Consumption Value"
+            "title": "Total Consumption Value (USD Billion)"
           },
           {
             "field": "2022 Consumption Value",
