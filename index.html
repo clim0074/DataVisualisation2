@@ -40,7 +40,7 @@
             <!-- First Pie Chart -->
             <!-- Add your pie chart code here -->
         </div>
-        <div style="flex-basis: 48%;" id="PieChart2">
+        <div style="flex-basis: 48%;" id="Top10BarChat">
             <!-- Second Pie Chart -->
             <!-- Add your pie chart code here -->
         </div>
@@ -54,7 +54,7 @@
       var spec1 = "JS/ChoroplethMap.vg.json";
       var spec2 = "JS/BubblePlot.vg.json";
       var spec3 = "JS/PieChart.vg.json";
-      var spec4 = "JS/PieChart.vg.json";
+      var spec4 = "JS/Top10BarChat.vg.json";
       
       vegaEmbed('#ChoroplethMap', spec1, { "actions": false }).then(function(result) {
         // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
@@ -65,7 +65,7 @@
       vegaEmbed('#PieChart', spec3, { "actions": false }).then(function(result) {
         // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
       }).catch(console.error);
-      vegaEmbed('#PieChart2', spec4, { "actions": false }).then(function(result) {
+      vegaEmbed('#Top10BarChat', spec4, { "actions": false }).then(function(result) {
         // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
       }).catch(console.error);
     </script>
