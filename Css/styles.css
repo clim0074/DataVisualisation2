@@ -1,0 +1,51 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    font-family: 'Arial Black', sans-serif;
+    font-size: 36px;
+    color: #333;
+}
+
+.description {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.map-container, .bubble-chart {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.map-description {
+    text-align: left;
+}
+
+.map-description h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.map-description p {
+    font-size: 16px;
+    color: #555;
+}
