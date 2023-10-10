@@ -1,8 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "World Instant Noodle Consumption 2022",
-  "width": 700,
-  "height": 400,
+  "width": "container",
   "projection": {"type": "equalEarth"},
   "layer": [
     {
