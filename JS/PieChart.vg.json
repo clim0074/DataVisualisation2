@@ -6,12 +6,10 @@
     "format": {"type": "csv"}
   },
   "transform": [{
-    "calculate": "datum.ConsumptionValue + 0", "as": "Consumption Value (USD Billion)"
+    "calculate": "datum.ConsumptionValue", "as": "Consumption Value (USD Billion)"
   }],
-  "layer": [
-    {"mark": {"type": "arc", "tooltip": true}}
-  ],
-  
+  "mark": {"type": "arc", "tooltip": true},
+    
   "encoding": {
     "theta": {"field": "Consumption Value (USD Billion)", "type": "quantitative", "stack": "normalize"},
     "color": {"field": "Continent", "type": "nominal"}
