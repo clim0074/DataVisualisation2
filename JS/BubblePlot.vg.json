@@ -1,8 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 600,
+  "width": 550,
   "height": 400,
-  "title": "Instant Noodle Consumption per Continent (2018 - 2022)",
   "data": {
     "url": "https://raw.githubusercontent.com/clim0074/FIT3179Week10/main/Data/Noodle%20Consumption.csv"
   },
@@ -31,6 +30,17 @@
         ],
         "name": "Continent Selection: "
       }
+    },
+    {
+      "name": "year_selection",
+      "value": 2022,
+      "bind": {
+        "input": "range",
+        "min": 2018,
+        "max": 2022,
+        "step": 1,
+        "name": "Year: "
+      }
     }
   ],
   "transform": [
@@ -42,10 +52,13 @@
     {
       "calculate": "parseInt(datum.ConsumptionValue) / parseInt(datum.Population) * 1000000",
       "as": "Consumption Value per million Population"
+    },
+    {
+      "filter": "datum.Year == year_selection"
     }
   ],
   "encoding": {
-    "x": {"field": "Year", "type": "ordinal", "axis": {"grid": false}},
+    "x": {"field": "Population", "type": "quantitative", "axis": {"grid": false}},
     "y": {
       "field": "ConsumptionValue",
       "type": "quantitative",
@@ -122,7 +135,7 @@
         "color": {"value": "black"},
         "opacity": {
           "condition": {
-            "test": "datum['Country'] == 'China' || datum['Country'] =='Malaysia' || datum['Country'] == 'Australia' || datum['Country'] =='France' || datum['Country'] == 'Italy' || datum['Country'] == 'Canada' || datum['Country'] == 'Brazil' ",
+            "test": "datum['Country'] == 'China' || datum['Country'] == 'Brazil' || datum['Country'] == 'Indonesia' || datum['Country'] == 'Iran' || datum['Country'] == 'Mexico' || datum['Country'] == 'Russia' || datum['Country'] == 'Ethiopia' || datum['Country'] == 'India'",
             "value": 1
           },
           "value": 0
