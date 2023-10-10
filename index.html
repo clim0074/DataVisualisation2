@@ -1,34 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Vega-Lite Charts</title>
-    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
-        <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
-        <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instant Noodle Consumption Visualization</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Instant Noodle Consumption</h1>
-    
-    <!-- World Map Chart Container -->
-    <div id="Week10HomeworkMap"></div>
+    <div class="container">
+        <h1 class="title">Instant Noodle Consumption Visualization</h1>
+        <p class="description">Explore the global trends in instant noodle consumption with our interactive visualizations.</p>
+        <div class="map-container" id="Week10HomeworkMap"></div>
+        <div class="map-description">
+            <h2>World Map</h2>
+            <p>Hover over the map to see noodle consumption values by country.</p>
+        </div>
+        <div class="bubble-chart" id="bubbleChart"></div>
+    </div>
 
-    <!-- Bubble Chart Container -->
-    <div id="Week10HomeworkTask1"></div>
-
-    <script>
-        // Vega-Lite Specification for World Map
-        var spec1 = "JS/Week10HomeworkMap.vg.json";
-        vegaEmbed('#Week10HomeworkMap', spec1).then(function(result) {
-          // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-        }).catch(console.error);
-
-        // Vega-Lite Specification for Bubble Chart
-        var spec2 = "JS/Week10HomeworkTask1.vg.json";
-        vegaEmbed('#Week10HomeworkTask1', spec2).then(function(result) {
-          // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-        }).catch(console.error);
-
-        
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+    <script type="text/javascript">
+      
+      var spec2 = "Week10HomeworkMap.vg.json";
+      vegaEmbed('#Week10HomeworkMap', spec2).then(function(result) {
+        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+      }).catch(console.error);
     </script>
 </body>
 </html>
