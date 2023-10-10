@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 600,
+  "width": 900,
   "height": 500,
   "projection": {"type": "equalEarth"},
   "layer": [
@@ -95,5 +95,5 @@
       }
     }
   ],
-  "config": {"legend": {"orient": "bottom-left"}}
+  "config": {}
 }
