@@ -35,6 +35,17 @@
     
     </div>
 
+    <div class="container" style="display: flex; justify-content: space-between;">
+        <div style="flex-basis: 48%;" id="PieChart">
+            <!-- First Pie Chart -->
+            <!-- Add your pie chart code here -->
+        </div>
+        <div style="flex-basis: 48%;" id="PieChart">
+            <!-- Second Pie Chart -->
+            <!-- Add your pie chart code here -->
+        </div>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@4"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
@@ -42,11 +53,19 @@
       
       var spec1 = "JS/ChoroplethMap.vg.json";
       var spec2 = "JS/BubblePlot.vg.json";
+      var spec3 = "JS/PieChart.vg.json";
+      var spec4 = "JS/PieChart.vg.json";
       
       vegaEmbed('#ChoroplethMap', spec1, { "actions": false }).then(function(result) {
         // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
       }).catch(console.error);
       vegaEmbed('#BubblePlot', spec2, { "actions": false }).then(function(result) {
+        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+      }).catch(console.error);
+      vegaEmbed('#PieChart', spec3, { "actions": false }).then(function(result) {
+        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+      }).catch(console.error);
+      vegaEmbed('#PieChart', spec4, { "actions": false }).then(function(result) {
         // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
       }).catch(console.error);
     </script>
