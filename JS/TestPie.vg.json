@@ -1,0 +1,14 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Pie Chart for Noodle Consumption by Continent",
+  "data": {
+    "url": "https://raw.githubusercontent.com/clim0074/FIT3179Week10/main/Data/Noodle%20Consumption.csv",
+    "format": {"type": "csv"}
+  },
+  "mark": "arc",
+  "encoding": {
+    "theta": {"field": "ConsumptionValue", "type": "quantitative"},
+    "color": {"field": "Continent", "type": "nominal"}
+  },
+  "config": {}
+}
