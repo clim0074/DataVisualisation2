@@ -1,8 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "Pie Chart with percentage_tooltip",
-  "width":500,
-  "height": 400,
   "data": {
     "url": "https://raw.githubusercontent.com/clim0074/DataVisualisation2/main/Data/ConsumptionValueByContinent_cleaned.csv",
     "format": {"type": "csv"}
@@ -13,7 +11,7 @@
   "layer": [
     {"mark": {"type": "arc", "tooltip": true}},
     {
-      "mark": {"type": "text", "radius": 160, "fill": "#202630", "angle": 70, "fontSize":12},
+      "mark": {"type": "text", "radius": 130, "fill": "#202630", "angle": 75, "fontSize":12},
       "encoding": {"text": {"field": "Continent", "type": "nominal"}},
     }
   ],
