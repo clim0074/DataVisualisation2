@@ -1,14 +1,25 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "Pie Chart for Noodle Consumption by Continent",
+  "description": "Pie Chart with percentage_tooltip",
+  "width":500,
+  "height": 400,
   "data": {
-    "url": "https://raw.githubusercontent.com/clim0074/FIT3179Week10/main/Data/Noodle%20Consumption.csv",
+    "url": "https://raw.githubusercontent.com/clim0074/DataVisualisation2/main/Data/ConsumptionValueByContinent_cleaned.csv",
     "format": {"type": "csv"}
   },
-  "mark": "arc",
+  "transform": [{
+    "calculate": "datum.ConsumptionValue + 0", "as": "Consumption Value (USD Billion)"
+  }],
+  "layer": [
+    {"mark": {"type": "arc", "tooltip": true}},
+    {
+      "mark": {"type": "text", "radius": 160, "fill": "#202630", "angle": 70, "fontSize":12},
+      "encoding": {"text": {"field": "Continent", "type": "nominal"}},
+    }
+  ],
+  
   "encoding": {
-    "theta": {"field": "ConsumptionValue", "type": "quantitative"},
+    "theta": {"field": "Consumption Value (USD Billion)", "type": "quantitative", "stack": "normalize"},
     "color": {"field": "Continent", "type": "nominal"}
-  },
-  "config": {}
+  }
 }
