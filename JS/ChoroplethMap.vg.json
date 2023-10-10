@@ -70,7 +70,7 @@
       ],
       "encoding": {
         "color": {
-          "field": "2022 Consumption Value",
+          "field": "2022 Consumption Value (USD Billion)",
           "type": "quantitative",
           "scale": {
             "type": "threshold",
@@ -88,7 +88,7 @@
           {
             "field": "2022 Consumption Value",
             "type": "quantitative",
-            "title": "Consumption value per 1 million population",
+            "title": "Consumption value (USD Billion) per million population",
             "format": ".2f"
           }
         ]
