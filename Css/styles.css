@@ -9,16 +9,16 @@ h2, h3, h4 {
     font-size: 24px;
 }
 
-p1, p2, p3 {
-    font-size: 18px; /* Adjust the font size as needed */
-}
-
 h1.title, h2, h3, h4{
     font-family: serif;
 }
 
+p1, p2, p3 {
+    font-size: 18px; /* Adjust the font size as needed */
+}
+
 .container {
-    max-width: 800px;
+    max-width: 1100px;
     margin: 0 auto;
     text-align: center;
     padding: 30px;
