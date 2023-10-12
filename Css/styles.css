@@ -9,16 +9,16 @@ h2, h3, h4 {
     font-size: 24px;
 }
 
-h1.title, h2, h3, h4{
-    font-family: serif;
-}
-
 p1, p2, p3 {
     font-size: 18px; /* Adjust the font size as needed */
 }
 
+h1.title, h2, h3, h4{
+    font-family: serif;
+}
+
 .container {
-    max-width: 1100px;
+    max-width: 800px;
     margin: 0 auto;
     text-align: center;
     padding: 30px;
@@ -51,13 +51,17 @@ p1, p2, p3 {
     text-align: left;
 }
 
-.map-description h2 {
+.map-description  {
     font-size: 24px;
     color: #333;
     margin-bottom: 10px;
 }
 
-.map-description p {
+.map-description  {
     font-size: 16px;
     color: #555;
+}
+
+.author{
+    text-align: center
 }
