@@ -135,7 +135,7 @@
         "color": {"value": "black"},
         "opacity": {
           "condition": {
-            "test": "datum['Country'] == 'China' || datum['Country'] == 'Brazil' || datum['Country'] == 'Indonesia' || datum['Country'] == 'Iran' || datum['Country'] == 'Mexico' || datum['Country'] == 'Russia' || datum['Country'] == 'Ethiopia' || datum['Country'] == 'India'",
+            "test": "datum['Country'] == 'China' || datum['Country'] == 'Brazil' || datum['Country'] == 'Indonesia'  || datum['Country'] == 'India'",
             "value": 1
           },
           "value": 0
