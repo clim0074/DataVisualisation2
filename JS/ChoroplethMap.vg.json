@@ -93,7 +93,18 @@
           }
         ]
       }
-    }
+    },
+        {
+          "data": { "values": [{"Year": "2022", "Event": "Noodle"}] },
+          "mark": {"type": "text", "fontSize" : 16, "align" : "left", "fontWeight": "bold", "lineBreak": "\n"},
+          "encoding": {
+            "text": { "value": "Country in asia has the highest\n rate of instant noodle consumption\n in the world" },
+            "color": { "value": "black" },
+            "size": { "value": 12 },
+            "x": { "value": 25 },
+            "y": { "value": 300 }
+          }
+        }
   ],
   "config": {}
 }
