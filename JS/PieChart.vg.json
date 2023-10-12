@@ -1,6 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "Pie Chart with percentage_tooltip",
+  "title": "Total Consumption Value (USD Billion) 2018-2022",
   "data": {
     "url": "https://raw.githubusercontent.com/clim0074/DataVisualisation2/main/Data/ConsumptionValueByContinent_cleaned.csv",
     "format": {"type": "csv"}
