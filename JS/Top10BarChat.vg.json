@@ -28,7 +28,7 @@
       "filter": "parseInt(datum.Rank) <= 11"
     },
     {"filter": "datum.Year == year_selection"},
-    {"calculate": "datum.ConsumptionValue", "as": "Consumption Value (USD Billion)"}
+    {"calculate": "datum.ConsumptionValue / datum.Population * 1000000", "as": "Consumption Value (USD Billion)"}
   ],
   "mark": "bar",
   "encoding": {
