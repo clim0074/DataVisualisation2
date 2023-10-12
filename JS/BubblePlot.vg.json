@@ -41,6 +41,17 @@
         "step": 1,
         "name": "Year: "
       }
+    },
+    {
+      "name": "population_selection",
+      "value": 1000000000,
+      "bind": {
+        "input": "range",
+        "min": 5000000,
+        "max": 1500000000,
+        "step": 1000000,
+        "name": "Population: "
+      }
     }
   ],
   "transform": [
@@ -55,7 +66,8 @@
     },
     {
       "filter": "datum.Year == year_selection"
-    }
+    },
+    {"filter": "datum.Population <= population_selection"}
   ],
   "encoding": {
     "x": {"field": "Population", "type": "quantitative", "axis": {"grid": false}},
@@ -94,6 +106,7 @@
       "mark": "circle",
       "encoding": {
         "opacity": {"value": 0.6},
+        
         "size": {
           "field": "Population",
           "type": "quantitative",
