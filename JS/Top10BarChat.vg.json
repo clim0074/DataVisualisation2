@@ -1,5 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Top 10 Country Consumption Value Per Million Population by Year",
   "data": {
     "url": "https://raw.githubusercontent.com/clim0074/DataVisualisation2/main/Data/Noodle%20Consumption.csv",
     "format": {"type": "csv"}
@@ -44,7 +45,8 @@
     "tooltip": {
             "field": "Consumption Value (USD Billion)",
             "type": "quantitative",
-            "title": "Total Consumption Value (USD Billion)"
+            "title": "Total Consumption Value (USD Billion)",
+            "format": ".2f"
     },
     "color": {"field": "Continent", "type": "nominal"}
   }
